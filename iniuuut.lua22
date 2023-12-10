@@ -1,0 +1,8 @@
+-- Load init.vim configurations
+vim.cmd('source $HOME\\AppData\\Local\\nvim\\init.vim')
+
+-- Your additional Neovim settings in Lua
+-- ...
+
+-- Load plugins, etc.
+require('telescope').load_extension('media_files')

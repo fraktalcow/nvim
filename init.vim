@@ -20,8 +20,8 @@ call plug#end()
 
 " Set the colorscheme
 " Uncomment one of the themes
-" colorscheme onedark
-colorscheme NeoSolarized
+colorscheme onedark
+"colorscheme NeoSolarized
 
 " Vim Airline configuration
 let g:airline_theme = 'theme_of_your_choice'
@@ -97,3 +97,5 @@ endfunction
 nnoremap <F9> :call OpenInitPane()<CR>
 
 
+" Load the Telescope media_files extension
+runtime! plugged/telescope-media-files.nvim/lua/telescope/media_files.vim
